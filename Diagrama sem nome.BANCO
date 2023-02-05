@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-04T19:24:11.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YSt2_P5Ynb1_0hGaRFRi" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-05T13:42:27.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_t69kzHIfVg-wE2aabAN" version="20.8.16" type="github">
   <diagram name="Página-1" id="bKkEXudE8bCe7gqViWxZ">
-    <mxGraphModel dx="3034" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="2650" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -372,7 +372,7 @@
         <mxCell id="6_FBMVpz3Hp1FfS_JHWW-126" value="NOME VARCHAR (100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6_FBMVpz3Hp1FfS_JHWW-124">
           <mxGeometry y="52" width="230" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="6_FBMVpz3Hp1FfS_JHWW-127" value="SOBRENOME VARCHAR (30)&#xa;ENDEREÇO VARCHAR (50)&#xa;TELEFONE INT (15)&#xa;E-MAIL VARCHAR(30)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6_FBMVpz3Hp1FfS_JHWW-124">
+        <mxCell id="6_FBMVpz3Hp1FfS_JHWW-127" value="SOBRENOME VARCHAR (30)&#xa;ENDEREÇO VARCHAR (50)&#xa;TELEFONE VARCHAR (20)&#xa;E-MAIL VARCHAR(30)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6_FBMVpz3Hp1FfS_JHWW-124">
           <mxGeometry y="80" width="230" height="82" as="geometry" />
         </mxCell>
         <mxCell id="6_FBMVpz3Hp1FfS_JHWW-128" value="FUNCIONARIO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -384,7 +384,7 @@
         <mxCell id="6_FBMVpz3Hp1FfS_JHWW-130" value="NOME VARCHAR (30)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6_FBMVpz3Hp1FfS_JHWW-128">
           <mxGeometry y="52" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6_FBMVpz3Hp1FfS_JHWW-131" value="SETOR VARCHAR (30)&#xa;DATA ADMISSAO DATE&#xa;GESTOR VARCHAR (30)&#xa;FK (ID CLIENTE)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6_FBMVpz3Hp1FfS_JHWW-128">
+        <mxCell id="6_FBMVpz3Hp1FfS_JHWW-131" value="SETOR VARCHAR (30)&#xa;DATA ADMISSAO DATE&#xa;GESTOR VARCHAR (50)&#xa;FK (ID CLIENTE)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6_FBMVpz3Hp1FfS_JHWW-128">
           <mxGeometry y="78" width="230" height="82" as="geometry" />
         </mxCell>
         <mxCell id="6_FBMVpz3Hp1FfS_JHWW-132" value="NUMERO LIGAÇÃO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -402,10 +402,10 @@
         <mxCell id="6_FBMVpz3Hp1FfS_JHWW-136" value="DATA LIGAÇÃO  DATE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6_FBMVpz3Hp1FfS_JHWW-135">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6_FBMVpz3Hp1FfS_JHWW-137" value="(FK) ID LIGAÇÃO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6_FBMVpz3Hp1FfS_JHWW-135">
+        <mxCell id="6_FBMVpz3Hp1FfS_JHWW-137" value="(PK) ID LIGAÇÃO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6_FBMVpz3Hp1FfS_JHWW-135">
           <mxGeometry y="52" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6_FBMVpz3Hp1FfS_JHWW-138" value="(FK) ID CLIENTE&#xa;RECLAMAÇÃO  VARCHAR (100)&#xa;ELOGIO  VARCHAR (100)&#xa;DUVIDA  VARCHAR (100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6_FBMVpz3Hp1FfS_JHWW-135">
+        <mxCell id="6_FBMVpz3Hp1FfS_JHWW-138" value="(FK) ID CLIENTE&#xa;(FK) ID FUNCIONARIO&#xa;RECLAMAÇÃO  VARCHAR (100)&#xa;ELOGIO  VARCHAR (100)&#xa;DUVIDA  VARCHAR (100)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6_FBMVpz3Hp1FfS_JHWW-135">
           <mxGeometry y="78" width="230" height="82" as="geometry" />
         </mxCell>
         <mxCell id="6_FBMVpz3Hp1FfS_JHWW-139" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
